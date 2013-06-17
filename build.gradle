@@ -1,2 +1,15 @@
 apply plugin: 'java'
 apply plugin: 'idea'
+apply from: 'http://plugins.jasoft.fi/vaadin.plugin'
+
+
+dependencies {
+	runtime group: 'com.vaadin', name: 'vaadin-server', version: '7.+'
+	runtime group: 'com.vaadin', name: 'vaadin-client-compiled', version: '7.+'
+	runtime group: 'com.vaadin', name: 'vaadin-client', version: '7.+'
+	runtime group: 'com.vaadin', name: 'vaadin-themes', version: '7.+'
+
+	runtime group: 'javax.servlet', name: 'javax.servlet-api', version: '3.+'
+
+}
+

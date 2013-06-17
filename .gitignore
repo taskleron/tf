@@ -1,2 +1,7 @@
 /.gradle
+/out/
 /build/
+tf.iml
+tf.ipr
+tf.iws
+atlassian-ide-plugin.xml
