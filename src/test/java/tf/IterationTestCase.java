@@ -27,10 +27,13 @@ public class IterationTestCase extends TestCase{
         IterationRT irt = caseManager.startIteration("productId", "versionId");
 
         CaseRT crt = irt.startCase("id");
-        StepRT srt = crt.startStep("id");                    //
-        //srt.stopStep("result", boolean)                   //checkStep(id, boolean)
-        //stopCase(guid) || crt.stop()
-        //irt.stop() || stopIteration(guid)
+        StepRT srt = crt.startStep("id");
+
+        //case
+
+        srt.stopStep("result", true);
+        crt.stop();
+        irt.stop();
 
     }
 }

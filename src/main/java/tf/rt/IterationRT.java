@@ -7,4 +7,8 @@ public class IterationRT {
     public CaseRT startCase(String id) {
         return new CaseRT();
     }
+
+    public void stop() {
+
+    }
 }

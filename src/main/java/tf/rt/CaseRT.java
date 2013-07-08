@@ -7,4 +7,8 @@ public class CaseRT {
     public StepRT startStep(String id) {
         return new StepRT();
     }
+
+    public void stop() {
+
+    }
 }
